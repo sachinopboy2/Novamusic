@@ -44,13 +44,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/villainmusic77/VILLAIN_MUSIC",
+    "https://github.com/sachinopboy2/Novamusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamvillain77")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/oldskoolgc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MUSIC_BOT_UPDATE")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
